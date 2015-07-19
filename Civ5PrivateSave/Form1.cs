@@ -34,18 +34,19 @@ namespace Civ5PrivateSave
             {
                 lastFile = openFileDialog1.FileName;
                 myByteArray = File.ReadAllBytes(lastFile);
+                indexByteStatus = IndexOf(myByteArray, myPattern) - 1;
+                if (indexByteStatus > -1)
+                {
+                    if (myByteArray[indexByteStatus] == 0) { isPrivate = false; } else { isPrivate = true; }
+                    detected = true;
+                }
+                else
+                {
+                    MessageBox.Show("Value not found, I can't help you, sorry.");
+                }
+                UpdateButton();
             }
-            indexByteStatus = IndexOf(myByteArray, myPattern) - 1;
-            if(indexByteStatus > -1)
-            {
-                if(myByteArray[indexByteStatus] == 0) { isPrivate = false; } else { isPrivate = true; }
-                detected = true;
-            }
-            else
-            {
-                MessageBox.Show("Value not found, I can't help you, sorry.");
-            }
-            UpdateButton();
+            
 
         }
 
