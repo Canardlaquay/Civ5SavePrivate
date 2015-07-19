@@ -19,7 +19,7 @@ namespace Civ5PrivateSave
         }
 
         byte[] myPattern = new byte[] { 0x01, 0x00, 0xFF, 0xFF, 0xFF, 0xFF, 0x00, 0x00, 0x00, 0x40 }; //the byte just this pattern before contains the public/private info
-        byte[] myByteArray;
+        byte[] myByteArray = new byte[] { };
         int indexByteStatus = -1;
         bool isPrivate = true;
         bool detected = false;
@@ -29,6 +29,7 @@ namespace Civ5PrivateSave
         {
             detected = false;
             button2.Enabled = false;
+            openFileDialog1.InitialDirectory = System.Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments) + "\\my games\\Sid Meier's Civilization 5\\Saves\\multi";
             if (openFileDialog1.ShowDialog() == DialogResult.OK)
             {
                 lastFile = openFileDialog1.FileName;
