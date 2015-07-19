@@ -1,0 +1,9 @@
+D:\Documents\Visual Studio 2015\Projects\Civ5PrivateSave\Civ5PrivateSave\bin\Debug\Civ5PrivateSave.exe.config
+D:\Documents\Visual Studio 2015\Projects\Civ5PrivateSave\Civ5PrivateSave\obj\Debug\Civ5PrivateSave.csprojResolveAssemblyReference.cache
+D:\Documents\Visual Studio 2015\Projects\Civ5PrivateSave\Civ5PrivateSave\obj\Debug\Civ5PrivateSave.Form1.resources
+D:\Documents\Visual Studio 2015\Projects\Civ5PrivateSave\Civ5PrivateSave\obj\Debug\Civ5PrivateSave.Properties.Resources.resources
+D:\Documents\Visual Studio 2015\Projects\Civ5PrivateSave\Civ5PrivateSave\obj\Debug\Civ5PrivateSave.csproj.GenerateResource.Cache
+D:\Documents\Visual Studio 2015\Projects\Civ5PrivateSave\Civ5PrivateSave\bin\Debug\Civ5PrivateSave.exe
+D:\Documents\Visual Studio 2015\Projects\Civ5PrivateSave\Civ5PrivateSave\bin\Debug\Civ5PrivateSave.pdb
+D:\Documents\Visual Studio 2015\Projects\Civ5PrivateSave\Civ5PrivateSave\obj\Debug\Civ5PrivateSave.exe
+D:\Documents\Visual Studio 2015\Projects\Civ5PrivateSave\Civ5PrivateSave\obj\Debug\Civ5PrivateSave.pdb
